@@ -1,0 +1,32 @@
+.container{
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.kiri{
+    width: 150px;
+    background-color: tomato;
+    height: 500px;
+    float: left;
+}
+
+.tengah{
+    width: 500px;
+    background-color: pink;
+    height: 500px;
+    float: left;
+}
+
+.kanan{
+    width: 150px;
+    background-color: skyblue;
+    height: 500px;
+    float: left;
+}
+
+/*
+ Note jumlah lebar ketiga div harus sama dengan container
+ 150px + 500px + 150px = 800px
+*/

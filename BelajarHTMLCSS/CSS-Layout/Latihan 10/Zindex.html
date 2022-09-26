@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Z-Index</title>
+    <style>
+        
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+
+        /* Z-index digunakan untuk mengatur indeks atau posisi tumpukan yang posisi elemennya non static */
+        .satu{
+            background-color: violet;
+            z-index: 1;
+        }
+        .dua{
+            top: 100px;
+            left: 100px;
+            background-color: lightskyblue;
+            z-index: -99999;
+        }
+        .tiga{
+            top: 200px;
+            left: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RGBA</title>
+    <style>
+        body{
+            background-image: url(prism.png);
+        }
+        .kotak{
+            width: 300px;
+            height: 300px;
+            /* transparansi bisa menggunakan rgba atau hsla */
+            background-color: rgba(255, 102, 0, 0.2);
+            position: relative;
+        }
+
+        .satu{
+            width: 100px;
+            height: 100px;
+            background-color: navy;
+            position: absolute;
+            bottom  : -35px;
+            right: -35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">
+        <div class="satu"></div>
+    </div>
+    
+</body>
+</html>

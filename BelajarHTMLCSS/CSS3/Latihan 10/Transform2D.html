@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transform 2D</title>
+    <!-- Fungsi trnasform : memanipulasi format visual elemen html
+        scale : memperbesar/memperkecil | sclae(angka), scaleX(angka), scaleY(angka)
+        rotate : memutar | rotate(deg), rotateX(deg), rotateY(deg)
+        skew : condong/miring | skew(deg), skewX(deg), skewY(deg)
+        translate : mengubah posisi | translate(px),translateX(px),translateY(px)
+    -->
+    <style>
+        body{
+            font-size: 20px;
+            text-align: center;
+        }
+        .kotak{
+            width: 300px;
+            height: 300px;
+            margin: 50px auto 0;
+            background-color: lightblue;
+            transition: 1s;
+        }
+        .kotak:hover{
+            /* transform: rotate(18deg) rotateX(180deg) rotateY(180deg)*/
+            /* transform: skewY(-45deg); */
+            /* transform: translate(50px , 100px); */
+            transform: scale(3) rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia iure quo optio excepturi nisi, numquam veniam porro obcaecati eaque consequatur animi voluptatem repellat molestias iusto ullam dolorem accusamus facilis.</p>
+
+    
+</body>
+</html>

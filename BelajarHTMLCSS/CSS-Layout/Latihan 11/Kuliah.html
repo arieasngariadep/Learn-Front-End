@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kuliah</title>
+    <style>
+        .top-bar{
+            background-color: darkblue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 40px;
+            z-index: 9999;
+        }
+        .iklan{
+            background-color: black;
+            opacity: 0.7;
+            position: fixed;
+            z-index: 9999999;
+            top : 100px;
+            left: 100px;
+            right: 100px;
+            bottom: 100px;
+        }
+
+        .iklan .close{
+            background-color: white;
+            width: 20px;
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            border: 3px solid black;
+            border-radius: 50%;
+            font-family: Arial;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        body{
+            height: 2000px;
+        }
+        .container{
+            width: 450px;
+            height: 450px;
+            border: 5px solid greenyellow;
+            margin: auto;
+            position: relative;
+        }
+        .satu, .dua, .tiga{
+            width: 150px;
+            height: 150px;
+            margin: auto;
+        }
+
+        .satu{
+            background-color: limegreen;
+        }
+        .dua{
+            background-color: #666;
+        }
+        .tiga{
+            background-color: red;
+        }
+    </style>
+</head> 
+<body>
+    <div class="top-bar"></div>
+    <div class="iklan">
+        <div class="close">X</div>
+    </div>
+
+    <div class="container">
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    </div>
+
+    
+</body>
+</html>

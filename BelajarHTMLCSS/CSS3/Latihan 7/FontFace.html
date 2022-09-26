@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font Face</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">  
+    
+    <style>
+        /* Penggunaan fontface */
+        @font-face{
+        font-family: 'Alex Brush';
+        src: url('Font/AlexBrush-Regular.ttf') format('truetype');
+        }
+
+        @font-face{
+        font-family: 'caviar_dreamsbold';
+        src: url('Font/Caviar_Dreams_Bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        /* FontGoogle.com */
+        h1{
+            margin: auto;
+            font-size: 100px;
+            text-align: center;
+            font-family: 'Smooch', cursive;
+        }
+
+        /* Font Squirrel */
+        h2{
+            margin: auto;
+            font-size: 100px;
+            text-align: center;
+            font-family: 'Alex Brush',arial;
+        }
+
+        /* Web font generator */
+        h3{
+            margin: auto;
+            font-size: 100px;
+            text-align: center;
+            font-family: 'caviar_dreamsbold';
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Memastikan font yang digunakan dimiliki user gunakan fonts.google.com : syaratnya harus connect internet-->
+    <h1>Hello World</h1>
+
+    <!-- Rekomendasi penggunaan font face : fontsquirrel.com -->
+    <h2>Hello World</h2>
+
+    <!-- web font generator -->
+    <h3>Hello World</h3>
+</body>
+</html>
+
+<!-- Note : Direkomendasikan menggunakan format woff dan di fontsquirrel terdapat tools untuk mengubah format fontnya -->

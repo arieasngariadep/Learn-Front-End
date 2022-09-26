@@ -1,0 +1,9 @@
+/* 
+Float : digunakan untuk mengatur posisi elemen secara paksa (keluar dari normal flow) 
+
+Kegunaan :
+1. Text Wrapping : membuat teks mengelilingi gambar/elemen lain
+2. image-gallery :membuat serangkaian gambar jadi galeri
+3. multi-column layout : membuat halaman memiliki beberapa kolom
+4. dll.
+*/

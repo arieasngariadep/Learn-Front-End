@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <style>
+        .kotak{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            animation: animasiKotak 3s ease infinite alternate forwards;
+        }
+
+        @keyframes animasiKotak{
+            0%{
+                width: 200px;
+            }
+            50%{
+                width: 500px;
+                height: 200px;
+            }
+            100%{
+                width: 500px;
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    
+</body>
+</html>
+
+<!-- 
+    Nilai property animation
+name 
+duration 
+timing-function 
+delay 
+iteration-count(angka\infinite) 
+direction(normal/reverse/alternate/alternate-reverse) 
+fill-mode (none/forwards/backwards/both) 
+play-state (running/paused)
+-->

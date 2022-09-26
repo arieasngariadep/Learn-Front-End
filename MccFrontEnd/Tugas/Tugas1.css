@@ -1,0 +1,42 @@
+*{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+/* p yang ada didalam section yang idnya = a */
+section#a p{
+    background-color: violet!important;
+}
+/* Bobot
+    # id
+    . class
+    tagline
+*/
+
+/* important akan mengabaikan bobot */
+
+section#a a:hover{
+    color: green;
+}
+
+.list:nth-child(4n) {
+    color: red;
+}
+
+/* Pseudo elemen :: membuat elemen baru */
+#c p::first-letter{
+    font-size: 40px;
+    color: red;
+    float: left;
+}

@@ -1,0 +1,12 @@
+.container{
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.container img{
+    float: left;
+    margin-left: 10px;
+}
+

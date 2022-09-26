@@ -1,0 +1,22 @@
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-right: 50px;
+}
+
+.dua{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin-left: 30px;
+}
+
+.tiga{
+     width: 50px;
+     height: 50px;
+     background-color: violet;
+}
+
+/* Note : Horizontal marginnya akan ditambah ketika ada blok yang menempel (untuk menempelkan div harus menghilangkan spasi) */
+/* overlapping ketika margin satu dengan yang lain lebih kecil secara vertikal */

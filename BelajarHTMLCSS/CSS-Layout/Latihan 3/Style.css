@@ -1,0 +1,34 @@
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.dua{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.tiga{
+     width: 50px;
+     height: 50px;
+     background-color: violet;
+}
+
+/* 
+Note : Vertikal margin yang paling besar yang akan diambil ketika terdapat blok yang menempel
+
+Negaritf Margin :Jika value margin negatif maka bergerak sebaliknya
+
+Auto : Berlaku untuk margin kiri dan kanan
+
+Shorthand : value1(atas) value2(kanan) value3(bawah) value4 (kiri)
+            value1(atas) value2(kiri kanan) value3(bawah)
+            value1(atas bawah) value2(kiri kanan) 
+*/

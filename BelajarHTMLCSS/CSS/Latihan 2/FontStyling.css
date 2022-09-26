@@ -1,0 +1,17 @@
+/* 
+Font Styling : mengatur komponen font
+
+Property :
+font-family = mengatur jenis font | value : nama font, generic famili
+font-size = mengatur ukuran font | value : px, %, em
+font-weight = mengatur ketebalan font | value : lighter, normal, 100-900, bold, bolder
+font-variant = mengubah font menjadi small caps | value : normal, smallcaps
+font-style = mengubah font menjadi cetak miring | italic, oblique, normal
+line-height = mengatur spasi antar baris | value : normal, px, em
+
+CSS shorthand
+ex : 
+body {
+    font : font-style(optional) font-variant(optional) font-weight(optional) font-size(wajib) line-height(optional) font-family(wajib);
+}
+*/

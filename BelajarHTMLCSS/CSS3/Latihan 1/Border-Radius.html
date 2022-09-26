@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border Radius</title>
+    <style>
+        .kotak{
+            width: 300px;
+            height: 300px;
+            background-color: tomato;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            /* 
+            Shorthand : border-radius: (atas kiri) (atas kanan) (bawah kanan) (bawah kiri)
+            */
+            text-align: center;
+            color: white;
+            line-height: 300px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: arial;
+            /* Background image */
+            background-image: url(Assets/Arie\ Asngari\ Ade\ Putra\ New.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0 -50px;
+            position: absolute;
+            right: 50px;
+        }
+
+        .gambar{
+            width: 300px;
+            height: 300px;
+            background-color: tomato;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        /* Trik gambar di luar background */
+        .gambar img{
+            width: 300px;
+            height: 300px;
+        }
+
+        .satu,.dua,.tiga,.empat,.lima,.enam{
+            margin-top: 80px;
+            display: inline-block;
+            margin-left: 5px;
+        }
+
+        .shape .satu{
+            width: 150px;
+            height: 150px;
+            border: 10px solid gray;
+            border-radius: 20px;
+            display: inline-block;
+        }    
+
+        .shape .dua{
+            width: 150px;
+            height: 150px;
+            border: 10px solid red;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+        .shape .tiga{
+            width: 150px;
+            height: 150px;
+            border: 10px solid tomato;
+            border-radius: 50%;
+        }
+
+        .empat{
+            width: 200px;
+            height: 100px;
+            border: 10px solid pink;
+            border-radius: 150px 150px 0 0;
+            
+        }
+
+        .lima{
+            width: 200px;
+            height: 100px;
+            border: 10px solid violet;
+            border-radius: 0 0 150px 150px;
+        }
+
+        .enam{
+            width: 100px;
+            height: 200px;
+            border: 10px solid yellow;
+            border-radius: 150px 0 0 150px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="kotak">
+            Hello World
+        </div>
+
+        <div class="gambar">
+            <!-- untuk gambar diluar background -->
+            <img src="Assets/Arie Asngari Ade Putra New.jpg" alt="">    
+        </div>
+
+        <div class="shape">
+            <div class="satu"></div>
+            <div class="dua"></div>
+            <div class="tiga"></div>
+            <div class="empat"></div>
+            <div class="lima"></div>
+            <div class="enam"></div>
+        </div>
+    </div>
+    
+</body>
+</html>

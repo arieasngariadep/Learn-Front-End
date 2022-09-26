@@ -1,0 +1,14 @@
+/* 
+Pseudo class : Kelas semu oleh sebuah elemen HTML, yang membuat kita mendefinisikan style dalam keadaan tertentu
+
+-Attribute yang aktif berdasarkan link
+link : style default pada sebuah link
+hover : style ketika kursor berada diatas link/elemen
+active : style ketikas sebuah link di klik
+visited : style ketika link sudah pernah dikunjungi
+
+-Attribute yang aktif berdasarkan posisi elemen
+first-child : memilih elemen pertama dari sebuah parent (elemen peembungkusnya)
+last-child : memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+nth-child(n) : memilih elemen ke-n dari sebuah parent (elemen pembungkusnya)
+*/

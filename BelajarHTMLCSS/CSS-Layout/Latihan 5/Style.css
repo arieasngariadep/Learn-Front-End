@@ -1,0 +1,23 @@
+/* Css Reset untuk mereset default elemen */
+
+
+/* Ex : 
+div, h1, p{
+    margin : 0;
+    padding : 0;
+} 
+*/
+
+/* Jika ingin Semua "*" */
+*{
+    margin : 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+/* Note : direkomendasikan untuk menggunakan mayerweb tools untuk css reset, tinggal dicopas */

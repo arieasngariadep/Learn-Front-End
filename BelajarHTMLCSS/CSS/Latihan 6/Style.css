@@ -1,0 +1,36 @@
+/* Pseudo class berdasarkan link */
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    font-size: 50px;
+    font-family: arial;
+}
+
+.hello:active{
+    color: green;
+    font-style: italic;
+}
+
+.hello:visited{
+    color: darkslategray;
+}
+
+/* Pseudo class berdasarkan posisi elemen */
+li:first-child a{
+    color: green;
+}
+
+li:last-child a{
+    color: purple;
+}
+/* 3n (kelipatan 3), even (genap), odd(ganjil) */
+li:nth-child(3n) a:hover{
+    color: red;
+}
+
+/* Untuk paragraph : first-of-type, last-of-type */
+p:first-of-type{
+    color: tomato;
+}

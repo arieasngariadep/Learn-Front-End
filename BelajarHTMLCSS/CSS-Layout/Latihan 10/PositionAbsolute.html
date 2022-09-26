@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position Absolute</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            border: 5px solid black;
+            /* position relitive agar absolut nyangkut */
+            position: relative;
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+        .satu{
+            background-color: violet;
+        }
+        .dua{
+            background-color: lightskyblue;
+            /* Absolute posisinya akan relative terhadap parent terdekat (container) yang non static & dan ruangannya dianggap hilang, dimana semua elemen html defaultnya static */
+            position: absolute; 
+            top: 0px;
+            right: 0px;
+        }
+        .tiga{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="satu">1</div>
+    <div class="dua">2</div>
+    <div class="tiga">3</div>
+</div>
+</body>
+</html>
+
+<!-- Selama elemen non static (absolut,fixed,relative) - bisa diatur top,left,bottom,right (bukan marginnya)  -->
+
+<!-- Secara layer yang paling akhir posisinya yang paling tinggi -->

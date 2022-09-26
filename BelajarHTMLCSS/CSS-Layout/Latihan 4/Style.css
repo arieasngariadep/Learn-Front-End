@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    /* Padding jarak antara kotak dan content, tidak bisa negatif dan auto */
+    padding: 50px;
+    /* border : width style color */
+    border: 5px double black;
+}
+
+/* Note : padding dan border mempengaruhi ukuran box */

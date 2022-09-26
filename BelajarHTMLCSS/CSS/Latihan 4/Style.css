@@ -1,0 +1,11 @@
+h1{
+    color: tomato;
+}
+
+body{
+    background-color:white;
+    background-image: url(bg3.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+

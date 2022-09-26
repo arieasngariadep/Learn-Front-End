@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.container .kotak{
+    width: 80px;
+    height: 80px;
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    /* trik agar tulisan ditengah, line height sesuai tinggi box */
+    line-height: 80px;
+    font-size: 30px;
+    margin: 2px;
+    float: left;
+}

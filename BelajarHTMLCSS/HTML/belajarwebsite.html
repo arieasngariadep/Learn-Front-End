@@ -1,0 +1,111 @@
+<!-- HTML : HyperText Markup Language, sebuah bahasa markah yang digunakan untuk membuat halaman website -->
+
+
+<!-- Istilah dalam HTML :
+Tag : Semua yang diawali deangan "<>" disebut tag yang memiliki characteristiknya masig-masing.
+Attribute : Didalam sebuah tag bisa terdapat attribut ex : <html lang="id">, dimana tagnya adalah html dan attributnya adalah lang yang bernilai id
+Content : Isi dari tag     
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+           Belajar HTML Ch. 1     
+        </title>
+    </head>
+    <body>
+        <!-- Heading -->
+        <h1>Halaman ini merupakan bagian pertama belajar HTML CSS</h1>
+        <h2>Halaman ini merupakan bagian pertama belajar HTML CSS</h2>
+        <h3>Halaman ini merupakan bagian pertama belajar HTML CSS</h3>
+        <h4>Halaman ini merupakan bagian pertama belajar HTML CSS</h4>
+        <h5>Halaman ini merupakan bagian pertama belajar HTML CSS</h5>
+        <h6>Halaman ini merupakan bagian pertama belajar HTML CSS</h6>
+
+        
+
+        
+        <!-- Anchor Element : tag yang digunakan untuk mengakses sebuah link-->
+        
+        <!-- <br> ini berfungsi sebgai enter pada halaman -->
+        <a href="https://www.linkedin.com/in/arieasngariadeputra/">klik di sini menuju linkedin</a> <br>
+
+        <!-- attribute target blank digunakan jika ingin membuka link pada halaman baru -->
+        <a href="https://www.youtube.com/" target="_blank">klik di sini menuju youtube</a> <br>
+
+
+        <!-- Image -->
+
+        <!-- Cara 1 : mengambil dari link -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="Logo HTML 5"> <br>
+
+        <!-- cara 2 : dari local -->
+        <img src="github-logo.png" alt="Logo github"> <br>
+
+        <table border="1">
+            <!-- <tr> untuk membuat colom -->
+                <tr>
+                    <!-- <td untuk mengisi valuenya> -->
+                        <td>No</td>
+                        <td>Nama</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Arie</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Asngari</td>
+                </tr>
+        </table> <br>
+
+        <!-- Text Form -->
+        <form >
+                <label>
+                    Nama Lengkap : <br>
+                    <input type="text" placeholder="Masukkan Nama">
+                </label>
+                <br>
+                <label>
+                    Jenis Kelamin : <br>
+                    <select>
+                        <option>Laki-laki</option>
+                        <option>Perempuan</option>
+                    </select>
+                </label>
+                <br>
+                Skill : <br>
+                <label>
+                    <input type="checkbox"> HTML
+                </label>
+                <label>
+                    <input type="checkbox"> CSS
+                </label>
+                <br>
+                <label>
+                    Pesan : <br>
+                    <textarea placeholder="Masukkan pesan"></textarea>
+                </label>
+
+                <input type="submit">
+        </form>
+
+        <!-- Div & Span -->
+        <!-- Div : Division, mengelempokkan bagian html agar lebih rapih (blok) -->
+        <div>
+            div : blok -> akan mengambil 1 baris full
+        </div>
+        <!-- Span : mengelempokkan bagian html agar lebih rapih (inline)-->
+        <span>
+            span : inline -> akan menampilkan kedalam 1 baris yang sama 
+        </span>
+        <span>
+            span
+        </span>
+    </body>
+
+</html>
